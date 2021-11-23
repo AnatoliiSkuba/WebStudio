@@ -56,10 +56,10 @@
 						</li>
 					</ul>
 					<ul class="menu-socials">
-						<li class="menu-socials__item">Instagram</li>
-						<li class="menu-socials__item">Twitter</li>
-						<li class="menu-socials__item">Facebook</li>
-						<li class="menu-socials__item">LinkedIn</li>
+						<li class="menu-socials__item"><a class="menu-socials__link">Instagram</a></li>
+						<li class="menu-socials__item"><a class="menu-socials__link">Twitter</a></li>
+						<li class="menu-socials__item"><a class="menu-socials__link">Facebook</a></li>
+						<li class="menu-socials__item"><a class="menu-socials__link">LinkedIn</a></li>
 					</ul>
 				</div>
 			</div>
@@ -181,32 +181,54 @@
 				</div>
 			</section>
 
-			<!-- works -->
+			<!-- occupation -->
 			<section class="section section--nopadding-top">
 				<div class="container">
 					<h2 class="section__title">Чем мы занимаемся</h2>
-					<ul class="works">
-						<li class="works__item">
-							<div class="works__thumb">
-								<img src="./images/img1.jpg" alt="Ппрограммист работающий за столом" width="370" height="294" />
-								<p class="works__text">Десктопные приложения</p>
+					<ul class="occupation">
+						<li class="occupation__item">
+							<div class="occupation__thumb">
+								<picture>
+									<source
+										srcset="./images/occupation/occ-1-desktop.webp 1x, ./images/occupation/occ-1-desktop@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										srcset="./images/occupation/occ-1-desktop.jpg 1x, ./images/occupation/occ-1-desktop@2x.jpg 2x"
+									/>
+									<img src="#" alt="Ппрограммист работающий за столом" width="370" height="294" />
+								</picture>
+								<p class="occupation__text">Десктопные приложения</p>
 							</div>
 						</li>
-						<li class="works__item">
-							<div class="works__thumb">
-								<img
-									src="./images/img2.jpg"
-									alt="Веб-дизайнер разрабатывает приложения смартфонов"
-									width="370"
-									height="294"
-								/>
-								<p class="works__text">Мобильные приложения</p>
+						<li class="occupation__item">
+							<div class="occupation__thumb">
+								<picture>
+									<source
+										srcset="./images/occupation/occ-2-desktop.webp 1x, ./images/occupation/occ-2-desktop@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										srcset="./images/occupation/occ-2-desktop.jpg 1x, ./images/occupation/occ-2-desktop@2x.jpg 2x"
+									/>
+									<img src="#" alt="Веб-дизайнер разрабатывает приложения смартфонов" width="370" height="294" />
+								</picture>
+								<p class="occupation__text">Мобильные приложения</p>
 							</div>
 						</li>
-						<li class="works__item">
-							<div class="works__thumb">
-								<img src="./images/img3.jpg" alt="Выбор цветов на графическом планшете" width="370" height="294" />
-								<p class="works__text">Дизайнерские решения</p>
+						<li class="occupation__item">
+							<div class="occupation__thumb">
+								<picture>
+									<source
+										srcset="./images/occupation/occ-3-desktop.webp 1x, ./images/occupation/occ-3-desktop@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										srcset="./images/occupation/occ-3-desktop.jpg 1x, ./images/occupation/occ-3-desktop@2x.jpg 2x"
+									/>
+									<img src="#" alt="Выбор цветов на графическом планшете" width="370" height="294" />
+								</picture>
+								<p class="occupation__text">Дизайнерские решения</p>
 							</div>
 						</li>
 					</ul>
@@ -219,7 +241,36 @@
 					<h2 class="section__title">Наша команда</h2>
 					<ul class="team">
 						<li class="team__item">
-							<img src="./images/img21.jpg" alt="Фотография Игоря Демьяненко" />
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-1.webp 1x, ./images/team/team-1@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-1.jpg 1x, ./images/team/team-1@2x.jpg 2x"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-1-tablet.webp 1x, ./images/team/team-1-tablet@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-1-tablet.jpg 1x, ./images/team/team-1-tablet@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-1-desktop.webp 1x, ./images/team/team-1-desktop@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-1-desktop.jpg 1x, ./images/team/team-1-desktop@2x.jpg 2x"
+								/>
+								<img src="#" alt="Игорь Демьяненко Product Designer" />
+							</picture>
 							<div class="team__box">
 								<h3 class="team__caption">Игорь Демьяненко</h3>
 								<p class="team__text" lang="en">Product Designer</p>
@@ -258,7 +309,36 @@
 							</div>
 						</li>
 						<li class="team__item">
-							<img src="./images/img22.jpg" alt="Фотография Ольги Репиной" />
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-2.webp 1x, ./images/team/team-2@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-2.jpg 1x, ./images/team/team-2@2x.jpg 2x"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-2-tablet.webp 1x, ./images/team/team-2-tablet@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-2-tablet.jpg 1x, ./images/team/team-2-tablet@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-2-desktop.webp 1x, ./images/team/team-2-desktop@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-2-desktop.jpg 1x, ./images/team/team-2-desktop@2x.jpg 2x"
+								/>
+								<img src="#" alt="Ольга Репина Frontend Developer" />
+							</picture>
 							<div class="team__box">
 								<h3 class="team__caption">Ольга Репина</h3>
 								<p class="team__text" lang="en">Frontend Developer</p>
@@ -297,7 +377,36 @@
 							</div>
 						</li>
 						<li class="team__item">
-							<img src="./images/img23.jpg" alt="Фотография Николая Тарасова" />
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-3.webp 1x, ./images/team/team-3@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-3.jpg 1x, ./images/team/team-3@2x.jpg 2x"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-3-tablet.webp 1x, ./images/team/team-3-tablet@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-3-tablet.jpg 1x, ./images/team/team-3-tablet@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-3-desktop.webp 1x, ./images/team/team-3-desktop@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-3-desktop.jpg 1x, ./images/team/team-3-desktop@2x.jpg 2x"
+								/>
+								<img src="#" alt="Николай Тарасов Marketing" />
+							</picture>
 							<div class="team__box">
 								<h3 class="team__caption">Николай Тарасов</h3>
 								<p class="team__text" lang="en">Marketing</p>
@@ -336,7 +445,36 @@
 							</div>
 						</li>
 						<li class="team__item">
-							<img src="./images/img24.jpg" alt="Фотография Михаила Ермакова" />
+							<picture>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-4.webp 1x, ./images/team/team-4@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 767px)"
+									srcset="./images/team/team-4.jpg 1x, ./images/team/team-4@2x.jpg 2x"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-4-tablet.webp 1x, ./images/team/team-4-tablet@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(max-width: 1199px)"
+									srcset="./images/team/team-4-tablet.jpg 1x, ./images/team/team-4-tablet@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-4-desktop.webp 1x, ./images/team/team-4-desktop@2x.webp 2x"
+									type="image/webp"
+								/>
+								<source
+									media="(min-width: 1200px)"
+									srcset="./images/team/team-4-desktop.jpg 1x, ./images/team/team-4-desktop@2x.jpg 2x"
+								/>
+								<img src="#" alt="Михаил Ермаков UI Designer" />
+							</picture>
 							<div class="team__box">
 								<h3 class="team__caption">Михаил Ермаков</h3>
 								<p class="team__text" lang="en">UI Designer</p>
