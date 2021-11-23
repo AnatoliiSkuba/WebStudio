@@ -1,0 +1,24 @@
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.section--nopadding-top {
+	padding-top: 0;
+
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
+}
+
+.section--grey-backgroun {
+	background-color: $primary-bg-color;
+}
+
+.section__title {
+	margin-bottom: 50px;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	color: $title-text-color;
+}
