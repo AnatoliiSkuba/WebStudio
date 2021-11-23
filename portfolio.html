@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 	<body>
-		<!-- Header -->
 		<header class="header">
 			<div class="container header__container">
 				<a class="logo logo--black" href="./index.html" lang="en">
@@ -29,11 +28,9 @@
 					<nav>
 						<ul class="site-nav">
 							<li class="site-nav__item">
-								<a class="site-nav__link" href="./index.html">Студия</a>
+								<a class="site-nav__link site-nav__link--active" href="./index.html">Студия</a>
 							</li>
-							<li class="site-nav__item">
-								<a class="site-nav__link site-nav__link--active" href="./portfolio.html">Портфолио</a>
-							</li>
+							<li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html">Портфолио</a></li>
 							<li class="site-nav__item"><a class="site-nav__link" href="">Контакты</a></li>
 						</ul>
 					</nav>
@@ -41,21 +38,27 @@
 					<!-- Contacts -->
 					<ul class="contact">
 						<li class="contact__item">
-							<a class="contact__link" href="mailto:info@devstudio.com">
-								<svg class="contact__icon" width="16" height="12">
+							<a class="contact__link-mail" href="mailto:info@devstudio.com">
+								<svg class="contact__icon contact__icon--envelope" width="14" height="10">
 									<use href="./images/icons.svg#icon-mail"></use>
 								</svg>
 								info@devstudio.com
 							</a>
 						</li>
 						<li class="contact__item">
-							<a class="contact__link" href="tel:+380961111111">
-								<svg class="contact__icon" width="10" height="16">
+							<a class="contact__link-tel" href="tel:+380961111111">
+								<svg class="contact__icon contact__icon--phone" width="10" height="14">
 									<use href="./images/icons.svg#icon-smartphone"></use>
 								</svg>
 								+38 096 111 11 11
 							</a>
 						</li>
+					</ul>
+					<ul class="menu-socials">
+						<li class="menu-socials__item">Instagram</li>
+						<li class="menu-socials__item">Twitter</li>
+						<li class="menu-socials__item">Facebook</li>
+						<li class="menu-socials__item">LinkedIn</li>
 					</ul>
 				</div>
 			</div>
