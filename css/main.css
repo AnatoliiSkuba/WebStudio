@@ -840,6 +840,12 @@ textarea {
   display: flex;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-socials {
+    display: none;
+  }
+}
+
 .menu-socials__item {
   font-weight: 500;
   font-size: 18px;
