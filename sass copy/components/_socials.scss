@@ -4,10 +4,6 @@
 
 .socials {
 	display: flex;
-
-	@media screen and (max-width: 1199px) {
-		justify-content: center;
-	}
 }
 
 .socials__item:not(:last-child) {
