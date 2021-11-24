@@ -1,6 +1,13 @@
 .section {
-	padding-top: 94px;
-	padding-bottom: 94px;
+	@media screen and (max-width: 1199px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
 }
 
 .section--nopadding-top {
@@ -16,9 +23,16 @@
 }
 
 .section__title {
-	margin-bottom: 50px;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 	color: $title-text-color;
+
+	@media screen and (max-width: 1199px) {
+		margin-bottom: 30px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin-bottom: 50px;
+	}
 }
